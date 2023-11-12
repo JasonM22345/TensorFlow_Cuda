@@ -26,7 +26,7 @@ Users can place any code they want to run in this folder.
 ### SSH Access
 - SSH is available in the container, and users can access it with the following command:
   ```
-  ssh -p <port> <user>@<container_ip>
+  > ssh -p <port> <user>@<container_ip>
   ```
   Replace `<port>`, `<user>`, and `<container_ip>` with the appropriate values.
 
@@ -37,12 +37,12 @@ Users can place any code they want to run in this folder.
 
 1. **Build Docker Image:**
    ```
-   docker build -t tf_cuda_test .
+   > docker build -t tf_cuda_test .
    ```
 
 2. **Run Docker Container:**
    ```
-   docker run --gpus all -e TF_CPP_MIN_LOG_LEVEL=2 -it --rm tf_cuda_test
+   > docker run --gpus all -e TF_CPP_MIN_LOG_LEVEL=2 -it --rm tf_cuda_test
    ```
    Options breakdown:
    - `--gpus all`: Allocates all available GPUs to the container.

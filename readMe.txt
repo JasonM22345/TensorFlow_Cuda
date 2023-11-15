@@ -37,7 +37,7 @@ Users can place any code they want to run in this folder.
 
 1. **Build Docker Image:**
    ```
-   > docker build -t tf_cuda_test .
+   > docker build . -t tf_cuda_test 
    ```
 
 2. **Run Docker Container:**

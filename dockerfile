@@ -18,6 +18,8 @@ RUN pip install torch \
     && pip install pandas \
     && pip install scipy
 
+RUN pip install transformers
+
 # Enable SSH access to the container
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd

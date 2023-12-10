@@ -1,5 +1,5 @@
 """
-Title: Tensorflow + CUDA demonstration / testing
+Title: Tensorflow + CUDA Demo / Test
 Jason Mensah-Homiah
 https://github.com/JasonM22345
 11/11/2023

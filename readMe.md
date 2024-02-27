@@ -5,7 +5,7 @@
 The Python code `TF_CudaTest.py` is designed to test and demonstrate how TensorFlow works with CUDA. 
 In this Docker container serves as a working alternative for users when TensorFlow CUDA is no longer available.
 
-#contact: https://www.linkedin.com/in/jasonmh22345/
+# Contact: https://www.linkedin.com/in/jasonmh22345/
 
 ## Docker Container Details
 
